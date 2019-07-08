@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Mon Jan 21 10:01:15 2019
 
-@author: ROHIT DHURATKAR
-"""
 
 import pandas as pd
 import numpy as np
@@ -274,7 +270,6 @@ acc = accuracy(con_mat)
 confusion_matrix.plot(normalized=True)
 plt.title('Random Forest \nAccuracy:{0:.3f}'.format(acc))
 plt.show()
-
 
 # SVM:
 supportvector = Pipeline([('vect', vectorizer),
